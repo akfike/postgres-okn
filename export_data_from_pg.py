@@ -33,15 +33,15 @@ conn.close()
 g = Graph()
 
 # Define namespaces
-n = Namespace("http://sail.ua.edu/okn/nsduh")
+n = Namespace("http://sail.ua.edu/okn/nsduh#")
 
 # Add data to the graph
 for index, row in df.iterrows():
-    incident_type = URIRef(f"{n}/incident_type/{row['incident_type_id']}")
+    incident_type = URIRef(f"{n}incident_type/{row['incident_type_id']}")
     g.add((incident_type, RDF.type, n.IncidentType))
     g.add((incident_type, n.incidentTypeName, Literal(row['incident_type_name'], datatype=XSD.string)))
-    g.add((incident_type, n.sourceDataset, Literal(row['source_dataset'], datatype=XSD.int)))
-    g.add((incident_type, n.year, Literal(row['year'], datatype=XSD.int)))
+    g.add((incident_type, n.sourceDataset, Literal(row['source_dataset'], datatype=XSD.integer)))
+    g.add((incident_type, n.year, Literal(row['year'], datatype=XSD.integer)))
 
 # Define the namespace bindings
 g.bind("sail", n)

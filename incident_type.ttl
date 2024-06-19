@@ -1,128 +1,128 @@
-@prefix sail: <http://sail.ua.edu/okn/nsduh> .
+@prefix sail: <http://sail.ua.edu/okn/nsduh#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/1> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/1> a sail:IncidentType ;
     sail:incidentTypeName "Motor vehicle theft"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/10> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/10> a sail:IncidentType ;
     sail:incidentTypeName "Tobacco possession"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/11> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/11> a sail:IncidentType ;
     sail:incidentTypeName "Possession, manufacture, or sale of drugs"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/12> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/12> a sail:IncidentType ;
     sail:incidentTypeName "Other sexual offense (not prostitution or rape)"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/13> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/13> a sail:IncidentType ;
     sail:incidentTypeName "Fraud, possessing stolen goods, or vandalism"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/14> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/14> a sail:IncidentType ;
     sail:incidentTypeName "Weapons laws violation"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/15> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/15> a sail:IncidentType ;
     sail:incidentTypeName "Violation of court order/probation/parole, perjury"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/16> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/16> a sail:IncidentType ;
     sail:incidentTypeName "Disorderly conduct"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/17> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/17> a sail:IncidentType ;
     sail:incidentTypeName "Unspecified crimes against persons/property/society"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/18> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/18> a sail:IncidentType ;
     sail:incidentTypeName "Traffic violations"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/19> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/19> a sail:IncidentType ;
     sail:incidentTypeName "Trespass of real property"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/2> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/2> a sail:IncidentType ;
     sail:incidentTypeName "Larceny or theft"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/20> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/20> a sail:IncidentType ;
     sail:incidentTypeName "Family offenses, nonviolent"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/21> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/21> a sail:IncidentType ;
     sail:incidentTypeName "Intimidation"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/22> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/22> a sail:IncidentType ;
     sail:incidentTypeName "Evading/hindering/obstructing police"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/23> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/23> a sail:IncidentType ;
     sail:incidentTypeName "Child endangerment/neglect/abandonment"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/24> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/24> a sail:IncidentType ;
     sail:incidentTypeName "Harassment; intimidation not specified"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/25> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/25> a sail:IncidentType ;
     sail:incidentTypeName "Hit and run/leaving the scene of an accident"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/3> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/3> a sail:IncidentType ;
     sail:incidentTypeName "Burglary or breaking and entering"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/4> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/4> a sail:IncidentType ;
     sail:incidentTypeName "Serious violent offense"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/5> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/5> a sail:IncidentType ;
     sail:incidentTypeName "Simple assault or battery"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/6> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/6> a sail:IncidentType ;
     sail:incidentTypeName "Robbery"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/7> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/7> a sail:IncidentType ;
     sail:incidentTypeName "Arson"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/8> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/8> a sail:IncidentType ;
     sail:incidentTypeName "DUI of alcohol or drugs"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
-<http://sail.ua.edu/okn/nsduh/incident_type/9> a sail:IncidentType ;
+<http://sail.ua.edu/okn/nsduh#incident_type/9> a sail:IncidentType ;
     sail:incidentTypeName "Drunkenness or liquor law violations"^^xsd:string ;
-    sail:sourceDataset "1"^^xsd:int ;
-    sail:year "2022"^^xsd:int .
+    sail:sourceDataset 1 ;
+    sail:year 2022 .
 
