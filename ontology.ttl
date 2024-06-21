@@ -1,0 +1,66 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sail: <http://sail.ua.edu/okn/nsduh/incident_type#> .
+
+sail:Crime a rdfs:Class .
+
+sail:Person a rdfs:Class ;
+    sail:arrestedAndBookedFor sail:Crime ;
+    sail:underTheInfluenceOf sail:Substance .
+
+sail:Substance a rdfs:Class .
+
+sail:AggravatedAssault a sail:Crime .
+
+sail:Alcohol a sail:Substance .
+
+sail:Arson a sail:Crime .
+
+sail:Burglary a sail:Crime .
+
+sail:Cocaine a sail:Substance .
+
+sail:DrivingUnderInfluence a sail:Crime .
+
+sail:ForcibleRape a sail:Crime .
+
+sail:Fraud a sail:Crime .
+
+sail:Hallucinogens a sail:Substance .
+
+sail:Heroin a sail:Substance .
+
+sail:Homicide a sail:Crime .
+
+sail:Inhalants a sail:Substance .
+
+sail:LarcenyOrTheft a sail:Crime .
+
+sail:Marijuana a sail:Substance .
+
+sail:Methamphetamine a sail:Substance .
+
+sail:MotorVehicleTheft a sail:Crime .
+
+sail:Murder a sail:Crime .
+
+sail:NonnegligentManslaughter a sail:Crime .
+
+sail:OtherAssault a sail:Crime .
+
+sail:PossessingStolenGoods a sail:Crime .
+
+sail:PossessionOfTobacco a sail:Crime .
+
+sail:ProstitutionOrCommercializedSex a sail:Crime .
+
+sail:Robbery a sail:Crime .
+
+sail:SexualOffense a sail:Crime .
+
+sail:Vandalism a sail:Crime .
+
+sail:arrestedAndBookedFor a rdf:Property .
+
+sail:underTheInfluenceOf a rdf:Property .
+
